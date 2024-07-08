@@ -33,7 +33,7 @@ const content = [
 function App() {
   const [activeContentIndex, setActiveContentIndex] = useState(0);
   return (
-    <div>
+    <div id="parentDiv">
       <header>
         <img src="./Public/react-logo-xs.png" alt="logo" />
         <div>
@@ -71,7 +71,7 @@ function App() {
         </menu>
 
         <div id="tab-content">
-          <ul>
+          <ul id="listsBox">
             {content[activeContentIndex].map((item) => (
               <li key={item}>{item}</li>
             ))}

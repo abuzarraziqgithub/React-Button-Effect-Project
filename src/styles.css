@@ -30,7 +30,14 @@ header p {
   margin: 0;
   color: #82c2ce;
 }
-
+#parentDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #2d3942;
+}
 #tabs {
   max-width: 32rem;
   margin: 2rem 0;
